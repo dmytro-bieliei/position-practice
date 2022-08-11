@@ -6,7 +6,6 @@
 
 main {
   width: 1000px;
- 
 }
 
 .background_block {
@@ -15,7 +14,8 @@ main {
 .red_card {
   display: inline-block;
   width: 32%;
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 50px;
   color: aliceblue;
   margin: 0 6px;
   padding: 20px;
@@ -28,7 +28,7 @@ main {
 .blue_card {
   display: inline-block;
   width: 32%;
-  font-size: 17px;
+  font-size: 20px;
   color: aliceblue;
   margin: 0 6px;
   padding: 20px;
@@ -42,7 +42,7 @@ main {
 .green_card {
   display: inline-block;
   width: 32%;
-  font-size: 17px;
+  font-size: 20px;
   color: aliceblue;
   margin: 0 6px;
   padding: 20px;
@@ -51,18 +51,15 @@ main {
   background: rgb(107,231,115);
   background: linear-gradient(90deg, rgba(107,231,115,1) 0%, rgba(5,138,27,1) 100%, rgba(2,0,36,1) 100%);
 }
-.red {
-  background: rgb(244,160,160);
-  background: linear-gradient(90deg, rgba(244,160,1)0%, rgba(244,5,5,1) 100%, rgba(2,0,36,1) 100%);
+
+.fit_icon {
+  height: 20px;
+  color: white;
 }
 
-.blue {
-  background: rgb(93,109,231);
-  background: linear-gradient(90deg, rgba(93,109,231,1) 0%, rgba(3,11,159,1) 100%, rgba(2,0,36,1) 100%);
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.163);
 }
-
-.green {
-  background: rgb(189,236,192);
-  background: linear-gradient(90deg, rgba(189,236,192,1) 4%, rgba(5,244,36,1) 100%, rgba(2,0,36,1) 100%);
-}
-
