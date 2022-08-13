@@ -30,35 +30,39 @@ main {
 
 .blue_card {
   display: inline-block;
-  width: 32%;
+  width: 400px;
+  height: 250px;
   font-size: 20px;
+  line-height: 50px;
   color: aliceblue;
-  margin: 0 6px;
+  margin: 6px;
   padding: 20px;
-  border: 5px solid bisque;
-  border-radius: 10px; 
+  border-radius: 10px;
   background: rgb(93,109,231);
   background: linear-gradient(90deg, rgba(93,109,231,1) 0%, rgba(3,11,159,1) 100%, rgba(2,0,36,1) 100%);
+  overflow: hidden;
 
 }
 
 .green_card {
   display: inline-block;
-  width: 32%;
+  width: 400px;
+  height: 250px;
   font-size: 20px;
+  line-height: 50px;
   color: aliceblue;
-  margin: 0 6px;
+  margin: 6px;
   padding: 20px;
-  border: 5px solid bisque;
-  border-radius: 10px; 
+  border-radius: 10px;
   background: rgb(107,231,115);
   background: linear-gradient(90deg, rgba(107,231,115,1) 0%, rgba(5,138,27,1) 100%, rgba(2,0,36,1) 100%);
+  overflow: hidden;
 }
 
-.fit_icon {
-  height: 20px;
+/* .fit_icon {
+  height: 40px;
   color: white;
-}
+} */
 
 .circle {
   width: 220px;
@@ -81,7 +85,7 @@ main {
   left: 180px;
 }
 
-.chart-line {
+.icon {
   position: relative;
   top: 6%;
   left: 50%;
