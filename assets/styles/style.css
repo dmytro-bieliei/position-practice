@@ -5,24 +5,27 @@
 }
 
 main {
-  width: 1000px;
+  width: content-box;
 }
 
 .background_block {
+  width: 1236px;
   font-size: 0;
+  background-color:bisque;
 }
 .red_card {
   display: inline-block;
-  width: 32%;
+  width: 400px;
+  height: 250px;
   font-size: 20px;
   line-height: 50px;
   color: aliceblue;
-  margin: 0 6px;
+  margin: 6px;
   padding: 20px;
-  border: 5px solid bisque;
   border-radius: 10px; 
   background: rgb(244,160,160);
   background: linear-gradient(90deg, rgba(244,160,1)0%, rgba(244,5,5,1) 100%, rgba(2,0,36,1) 100%);
+  overflow: hidden;
 }
 
 .blue_card {
@@ -58,8 +61,50 @@ main {
 }
 
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.163);
+  position: relative;
+  top: -200px;
+  left: 240px;
+  
+}
+
+.circle2 {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.163);
+  position: relative;
+  top: -270px;
+  left: 180px;
+}
+
+.chart-line {
+  position: relative;
+  top: 6%;
+  left: 50%;
+}
+
+.card-name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 5%;
+  
+
+  
+}
+
+.sum {
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold; 
+}
+
+.interest-rate {
+  position: relative;
+  top: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
 }
