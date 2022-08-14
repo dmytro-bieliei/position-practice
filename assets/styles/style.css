@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
@@ -13,7 +14,8 @@ main {
   font-size: 0;
   background-color:bisque;
 }
-.red_card {
+
+.card {
   display: inline-block;
   width: 400px;
   height: 250px;
@@ -23,63 +25,41 @@ main {
   margin: 6px;
   padding: 20px;
   border-radius: 10px; 
+  overflow: hidden;
+}
+.red_card {
   background: rgb(244,160,160);
   background: linear-gradient(90deg, rgba(244,160,1)0%, rgba(244,5,5,1) 100%, rgba(2,0,36,1) 100%);
-  overflow: hidden;
+  
 }
 
 .blue_card {
-  display: inline-block;
-  width: 400px;
-  height: 250px;
-  font-size: 20px;
-  line-height: 50px;
-  color: aliceblue;
-  margin: 6px;
-  padding: 20px;
-  border-radius: 10px;
   background: rgb(93,109,231);
   background: linear-gradient(90deg, rgba(93,109,231,1) 0%, rgba(3,11,159,1) 100%, rgba(2,0,36,1) 100%);
-  overflow: hidden;
+  
 
 }
 
 .green_card {
-  display: inline-block;
-  width: 400px;
-  height: 250px;
-  font-size: 20px;
-  line-height: 50px;
-  color: aliceblue;
-  margin: 6px;
-  padding: 20px;
-  border-radius: 10px;
   background: rgb(107,231,115);
   background: linear-gradient(90deg, rgba(107,231,115,1) 0%, rgba(5,138,27,1) 100%, rgba(2,0,36,1) 100%);
-  overflow: hidden;
+  
 }
-
-/* .fit_icon {
-  height: 40px;
-  color: white;
-} */
 
 .circle {
   width: 220px;
   height: 220px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.163);
+}
+.circle_pos {
   position: relative;
   top: -200px;
   left: 240px;
   
 }
 
-.circle2 {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.163);
+.circle2_pos {
   position: relative;
   top: -270px;
   left: 180px;
@@ -92,17 +72,12 @@ main {
 }
 
 .card-name {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
   top: 5%;
-  
-
-  
 }
 
 .sum {
   position: relative;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: bold; 
 }
@@ -110,5 +85,4 @@ main {
 .interest-rate {
   position: relative;
   top: 15%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
 }
