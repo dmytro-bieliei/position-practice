@@ -1,0 +1,50 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+
+.card {
+  display: inline-block;
+  min-width: 300px;
+  max-width: 500px;
+  border-radius: 15px;
+  padding: 45px;
+  margin: 6px;
+  position: relative;
+  
+}
+
+.red_card {
+  background: rgb(244,160,160);
+  background: linear-gradient(90deg, rgba(244,160,1)0%, rgba(244,5,5,1) 100%, rgba(2,0,36,1) 100%);  
+}
+
+.blue_card {
+  background: rgb(93,109,231);
+  background: linear-gradient(90deg, rgba(93,109,231,1) 0%, rgba(3,11,159,1) 100%, rgba(2,0,36,1) 100%);
+}
+
+.green_card {
+  background: rgb(107,231,115);
+  background: linear-gradient(90deg, rgba(107,231,115,1) 0%, rgba(5,138,27,1) 100%, rgba(2,0,36,1) 100%);
+}
+
+.icon {
+  position: absolute;
+  right: 45px;
+
+  }
+
+  .card-name {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .sum {
+    margin-bottom: 45px;
+    font-size: 35px;
+  }
